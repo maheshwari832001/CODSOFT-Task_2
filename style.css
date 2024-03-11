@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 nav{
     background-color: black;
     color:white;
@@ -183,7 +186,7 @@ p{
 }
 /*---------project----------*/
 section{
-    height: 120vh;
+    height: 140vh;
     background-color:rgb(27, 35, 41);
 }
 .t2-links{
@@ -205,7 +208,7 @@ section{
     margin-right: 20px;
 }
 .project-list div{
-    background-color: rgb(51, 66, 77);;
+    background-color: rgb(51, 66, 77);
     padding: 20px;
     font-size: 15px;
     font-family: sans-serif;
@@ -233,18 +236,18 @@ section{
 /*----------resume section------*/
 #resume{
     height: 30vh;
-    background-color:rgb(171, 169, 167);
+    background-color:rgb(73, 74, 101);
 }
 .container4 h1{
-    padding-top: 30px;
+    padding-top: 20px;
     padding-left: 40px;
-    padding-bottom: 10px;
     font-family: sans-serif;
-    font-size:40px;
+    font-size:30px;
 }
 .button.btn{
     margin-left: 80px;
     padding: 20px;
+    margin-left: 100px;
     font-size: 30px;
     color:black;
     background-color: indianred;
@@ -252,7 +255,50 @@ section{
 .container4 img{
     height: 80px;
     padding-top: 45px;
+    padding-left: 50px;
+}
+/*----------contact section------*/
+#contact{
+    height: 30vh;
+    background-color:rgb(73, 74, 101);
+}
+.container5 h1{
+    padding-top: 20px;
     padding-left: 30px;
+    font-family: sans-serif;
+    font-size:30px;
+}
+.container5 p{
+    font-size: 25px;
+    padding: 20px;
+    font-weight: bold;
+    margin-left: 80px;
+}
+.mail{
+    font-size: 25px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.mail img{
+    height: 35px;
+    padding-top:10px;
 }
 
-
+footer{
+    height: 15vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+footer h1{
+    font-size: 25px;
+    word-spacing: 5px;
+}
+.socialicon{
+    display: inline-block;
+}
+.socialicon p img{
+    height: 30px;
+    padding-left: 15px;
+}
