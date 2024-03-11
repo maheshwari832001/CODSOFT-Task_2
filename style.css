@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: black;
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header img{
+    height: 15vh;
+    margin-left: 30px;
+}
+li,ul, a{
+    background-color: black;
+    display: inline;
+    padding-top: 40px;
+}
+li,a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    cursor:pointer;
+    position: relative;
+    z-index: 1;
+}
+li , a:hover{
+    color: plum;
+}
+ul{
+    margin-left: 48%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    padding:10px;
+    background-color: rgb(150, 171, 150);
+    
+}
+.leftside{
+    flex-basis: 50%;
+    margin-top: -10%;
+    margin-left: 60px;
+}
+.leftside h2{
+    margin-top: 10px;
+    padding-top:10px;
+    font-size: 35px;
+    margin-left: 30px;
+    border-left: 10px solid black;
+    padding-left: 10px;
+    font-style: italic;
+    font-weight: bolder;
+    padding-left: 20px;
+}
+.leftside h1 {
+    padding-top:10px;
+    font-size: 45px;
+    margin-left: 30px;
+    border-left: 10px solid black;
+    padding-left: 20px;
+}
+.leftside h3{
+    font-size: 23px;
+    padding-top:20px;
+    margin-left: 40px; ;
+    font-weight: lighter;
+    font-family: sans-serif;
+    padding-left: 15px;
+}
+.righttside{
+    flex-basis: 50%;
+}
+.righttside img{
+    width: 60%;
+    margin-left: 180px;
+    border: 8px solid black;
+    padding: 10px;
+    position: relative; 
+    bottom: 240px;
+    z-index: 5px;
+}
+.block{
+    height: 480px;
+    width: 340px;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4));
+    position: relative;
+    left:40%;
+    top:220px;
+    z-index: 0;
+}
+/*-------------skill ----------*/
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: 90vh;
+    background-color: black
+}
+.t-links{
+    padding: 20px;
+    color: darkseagreen;
+    font-size: 50px;
+    font-family:sans-serif ;
+    font-weight: 600;
+    cursor: pointer;
+    height: 70px;
+}
+.t-links:hover{
+    color:white;
+}
+.skills{
+    display: grid;
+    grid-template-columns: repeat(5, minmax(250px,1fr));
+    grid-gap: 10px;
+}
+.box{
+    background-color: rgb(150, 171, 150);
+    color: black;
+    border-color: white;
+    border-width: 10px;
+    border-radius: 20px;
+    border-style: solid;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-left: 40px;
+}
+.box:hover{
+    background-color: white;
+    color:black;
+    border-color: darkcyan;
+}
+.box img{
+    height: 15vh;
+    padding-left: 30px;
+}
+.box p{
+    padding: 30px;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+p{
+    padding: 5px;
+    text-align: left;
+    font-size: 20px;
+}
+.box2{
+    background-color: white;
+    color: black;
+    border-color: darkcyan;
+    border-width: 10px;
+    border-radius: 20px;
+    border-style: solid;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-left: 40px;
+}
+.box2 img{
+    height: 16vh;
+    padding-left: 25px;
+}
+.box2:hover{
+    background-color: rgb(150, 171, 150); ;
+    color:black;
+    border-color:white ;
+}
+.box2 p{
+    padding: 30px;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+/*---------project----------*/
+section{
+    height: 120vh;
+    background-color:rgb(27, 35, 41);
+}
+.t2-links{
+    padding: 10px;
+    padding-top: 20px;
+    color: whitesmoke;
+    font-size: 35px;
+    font-family:sans-serif ;
+    font-weight: 600;
+    cursor: pointer;
+    height: 70px;
+}
+.project-list{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(250px,1fr));
+    grid-gap: 30px;
+    margin-top: 20px;
+    margin-left: 20PX;
+    margin-right: 20px;
+}
+.project-list div{
+    background-color: rgb(51, 66, 77);;
+    padding: 20px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 300;
+    border-radius: 20px;
+    transition: background 0.5s,transform 0.5s;
+}
+.project-list img{
+    padding-bottom:20px;
+}
+.project-list h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+    padding-bottom: 10px;
+}
+.project-list p{
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.project-list div:hover{
+    background-color:rgb(128, 170, 207);
+    transform:translateY(-15px)
+}
+/*----------resume section------*/
+#resume{
+    height: 30vh;
+    background-color:rgb(171, 169, 167);
+}
+.container4 h1{
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+    font-size:40px;
+}
+.button.btn{
+    margin-left: 80px;
+    padding: 20px;
+    font-size: 30px;
+    color:black;
+    background-color: indianred;
+}
+.container4 img{
+    height: 80px;
+    padding-top: 45px;
+    padding-left: 30px;
+}
+
+
