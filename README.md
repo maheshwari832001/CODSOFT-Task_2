@@ -23,6 +23,10 @@ Created and developed a personalized portfolio website using using HTML and CSS.
 
 The images used in this project are sourced from Google Images, Flaticons, and Font Awesome.
 
+## Website
+
+Visit my personal portfolio website at https://maheshwari832001.github.io/CODSOFT-Task_2/
+
 
 # License
 
